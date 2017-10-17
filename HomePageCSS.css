@@ -1,0 +1,49 @@
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+}
+/*Navbar Links*/
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+/*Page Content*/
+.content {
+    padding: 16px;
+    font-size: 25px;
+    text-align: center;
+}
+/*The sticky class is added to the navbar with JS when it reaches the scroll position*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/*Add some top padding to the page of the content to prevent sudden quick movement (as nav bar gets new position)*/
+.sticky + .content{
+    padding-top: 60px;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+a:link {
+    color: green;
+    background-color: transparent; 
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+}
