@@ -2,19 +2,15 @@ $("#Home").click(function(){
     window.open('https://www.google.com/', 'Home');
 });
 
-$("#link1").click(function(){
+$("#Sports").click(function(){
     window.open('https://www.google.com/', 'link');
 });
 
-$("#link2").click(function(){
+$("#Clubs").click(function(){
     window.open('https://www.google.com/', 'link');
 });
 
-$("#link3").click(function(){
-    window.open('https://www.google.com/', 'link');
-});
-
-$("#link4").click(function(){
+$("#School-News").click(function(){
     window.open('https://www.google.com/', 'link');
 });
 
